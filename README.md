@@ -1,26 +1,31 @@
-# Ciclo de Talleres Metodológicos Virtuales
+# Técnicas de Evaluación de Impacto de Políticas Públicas de Seguridad Ciudadana
 
-## Magíster en Métodos para la Investigación Social 2024: Aproximaciones a la inferencia causal en ciencias sociales
+## Curso especializado en criminología y gestión de la seguridad ciudadana
 
-**José Conejeros**, :mailbox_with_no_mail: [jose.conejeros1@mail.udp.cl](jose.conejeros1@mail.udp.cl). Docente UDP e Investigador joven de la Escuela de Gobierno UC. 
+**José Conejeros**, :mailbox_with_no_mail: [jdconejeros@sigmaanalytics.cl](jdconejeros@sigmaanalytics.cl). CEO Sigma Analytics e Investigador joven de la Escuela de Gobierno UC. 
 
-Este taller analiza las dificultades para estimar efectos causales en ciencias sociales y se introducen estrategias para abordar la causalidad mediante diseños experimentales y cuasi-experimentales. 
 
-Requisitos: conocimientos básicos de test de hipótesis, regresión lineal y programación en `R`.
+Este curso analiza las dificultades para estimar efectos causales en ciencias sociales, especialmente en criminología y se introducen estrategias para abordar la causalidad mediante diseños experimentales y cuasi-experimentales. 
 
-Tendremos tres sesiones: <https://jdconejeros.github.io/MIMIS-WKs2024.github.io/S1.html>
+Este curso realizará mediante las presentaciones de clases magistrales de expertos en políticas públicas, que mediante sesiones virtuales permitirá a los participantes adquirir nuevos conocimientos teóricos y prácticos sobre la implementación de las principales técnicas vigentes en la evaluación de impacto. Así también, el curso busca generar un espacio donde se desarrolle el pensamiento crítico y de reflexión sobre la evaluación, analizando datos estadísticos, análisis de documentos normativos y estudio de casos prácticos.
 
-:pushpin: Sesión 1: **Problema fundamental de la inferencia causal y repaso de regresión lineal**. 
+**Requisitos:** conocimientos básicos de test de hipótesis, regresión lineal y programación en `R`.
 
-Lunes 04/11 de 18:00 – 20:30 hrs
+Tendremos dos sesiones: 
 
-:pushpin: Sesión 2: **Diseños experimentales: aleatorización, diseño de bloques y cálculos de poder**. 
+:pushpin: Sesión 1: [Sesión 1](): **Problema fundamental de la inferencia causal y repaso de regresión lineal**. 
 
-Lunes 11/11 de 18:00 – 20:30 hrs
+26/11 de 19:00 – 21:00 hrs
 
-:pushpin: Sesión 3: **Técnicas con datos observacionales: matching y variables instrumentales**. 
+:pushpin: Sesión 2: [Sesión 2](): **Diseños experimentales: aleatorización y diseño de bloques**. 
 
-Lunes 18/11 de 18:00 – 20:30 hrs
+28/11 de 19:00 – 21:00 hrs
+
+**Una sesión de estudio personal:**
+
+:pushpin: [Sesión 3](): **Técnicas con datos observacionales: matching y variables instrumentales**. 
+
+Estudio personal.
 
 ## Referencias 
 
@@ -29,6 +34,8 @@ Angrist, J. D. y J. Pischke (2015). Mastering ’Metrics: The Path from Cause to
 Cunningham, S. (2021). Causal inference. In Causal Inference. Yale University Press. Versión en inglés: <https://mixtape.scunning.com/>
 
 Gerber, A. S. y D. P. Green (2012). Field Experiments: Design, Analysis, and Interpretation. New York: W. W. Norton.
+
+Gertler, P. J., Martínez, S., Premand, P., & Rawlings, L. B. (2017). La evaluación de impacto en la práctica. World Bank Publications. Versión en español: <https://publications.iadb.org/es/la-evaluacion-de-impacto-en-la-practica-segunda-edicion>
 
 Huntington-Klein, N. (2021). The effect: An introduction to research design and causality. Chapman and Hall/CRC. Versión en inglés: <https://theeffectbook.net/index.html>
 
