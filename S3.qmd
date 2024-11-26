@@ -1,8 +1,12 @@
 ---
 title: "Sesión 3: Técnicas cuasi-experimentales"
-subtitle: "Magíster en Métodos para la Investigación Social 2024"
+subtitle: "Técnicas de Evaluación de Impacto de Políticas Públicas en Crimen y Seguridad Ciudadana"
 author: 
-  - José Conejeros <br> <jose.conejeros1@mail.udp.cl>
+  - José Conejeros <br> <jdconejeros@sigmaanalytics.cl>
+  - Ariel Gonzalez <br> <agonzalez@sigmaanalytics.cl>
+  - Javier Fuentes <br> <jfuentes@sigmaanalytics.cl>
+  - Hermann Aros <br> <haros@sigmaanalytics.cl>
+  - Cristóbal Miño <br> <cmino@sigmaanalytics.cl>
 date: last-modified
 date-format: 'dddd DD [de] MMMM, YYYY'
 last-modified: true
@@ -26,9 +30,11 @@ format:
     code-overflow: wrap
     fig-cap-location: top
 lang: es
-abstract-title: "Facultad de Ciencias Sociales e Historia UDP"
-abstract: "[Click al repositorio](https://github.com/JDConejeros/MIMIS-WKs2024.github.io)"
+abstract-title: "Sigma Analytics Spa"
+abstract: "[Click al repositorio](https://github.com/SigmaLabsChile/Workshop-IPESA-TEVI24.github.io)"
 ---
+
+Puede saber más de nosotros en: <https://sigmaanalytics.cl/>
 
 ## El estimador ingenuo 
 
@@ -469,6 +475,6 @@ En otras palabras, usamos una parte exógena de la variación en $S_i$ para iden
 
 ### Palabras finales
 
-Queremos expresar nuestro más sincero agradecimiento por su asistencia y activa participación en el Workshop MIMIS-WKs 2024. Su entusiasmo, compromiso y valiosas contribuciones hicieron de este encuentro un espacio enriquecedor para el intercambio de ideas y el aprendizaje colaborativo. 
+Queremos expresar nuestro agradecimiento por su asistencia y activa participación en este curso. Su entusiasmo, compromiso y valiosas contribuciones hicieron de este encuentro un espacio enriquecedor para el intercambio de ideas y el aprendizaje colaborativo. 
 
-Tanto en el Magíster en [Métodos para la Investigación Social](https://posgrados.udp.cl/programas/magister-en-metodos-para-la-investigacion-social/) y en el [Diplomado en Métodos Cuantitativos para la Investigación Social](https://posgrados.udp.cl/programas/diplomado-en-metodos-cuantitativos-para-la-investigacion-social/) se profundizan en estas y otras cosas más. ¡Nos vemos en otra oportunidad!
+Puede saber más de nosotros en: <https://sigmaanalytics.cl/>

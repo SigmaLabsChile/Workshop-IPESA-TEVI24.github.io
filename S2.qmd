@@ -1,8 +1,12 @@
 ---
 title: "Sesión 2: Diseños experimentales"
-subtitle: "Magíster en Métodos para la Investigación Social 2024"
+subtitle: "Técnicas de Evaluación de Impacto de Políticas Públicas en Crimen y Seguridad Ciudadana"
 author: 
-  - José Conejeros <br> <jose.conejeros1@mail.udp.cl>
+  - José Conejeros <br> <jdconejeros@sigmaanalytics.cl>
+  - Ariel Gonzalez <br> <agonzalez@sigmaanalytics.cl>
+  - Javier Fuentes <br> <jfuentes@sigmaanalytics.cl>
+  - Hermann Aros <br> <haros@sigmaanalytics.cl>
+  - Cristóbal Miño <br> <cmino@sigmaanalytics.cl>
 date: last-modified
 date-format: 'dddd DD [de] MMMM, YYYY'
 last-modified: true
@@ -26,10 +30,11 @@ format:
     code-overflow: wrap
     fig-cap-location: top
 lang: es
-abstract-title: "Facultad de Ciencias Sociales e Historia UDP"
-abstract: "[Click al repositorio](https://github.com/JDConejeros/MIMIS-WKs2024.github.io)"
+abstract-title: "Sigma Analytics Spa"
+abstract: "[Click al repositorio](https://github.com/SigmaLabsChile/Workshop-IPESA-TEVI24.github.io)"
 ---
 
+Puede saber más de nosotros en: <https://sigmaanalytics.cl/>
 
 ```{r}
 #| echo: false

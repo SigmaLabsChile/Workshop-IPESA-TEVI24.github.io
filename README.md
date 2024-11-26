@@ -4,6 +4,13 @@
 
 **José Conejeros**, :mailbox_with_no_mail: [jdconejeros@sigmaanalytics.cl](jdconejeros@sigmaanalytics.cl). CEO Sigma Analytics e Investigador joven de la Escuela de Gobierno UC. 
 
+**Ariel Gonzalez**, :mailbox_with_no_mail: [agonzalez@sigmaanalytics.cl](agonzalez@sigmaanalytics.cl).
+
+**Javier Fuentes**, :mailbox_with_no_mail: [jfuentes@sigmaanalytics.cl](jfuentes@sigmaanalytics.cl).
+
+**Hermann Aros**, :mailbox_with_no_mail: [haros@sigmaanalytics.cl](haros@sigmaanalytics.cl)
+
+**Cristóbal Miño**, :mailbox_with_no_mail: [cmino@sigmaanalytics.cl](cmino@sigmaanalytics.cl)
 
 Este curso analiza las dificultades para estimar efectos causales en ciencias sociales, especialmente en criminología y se introducen estrategias para abordar la causalidad mediante diseños experimentales y cuasi-experimentales. 
 
@@ -13,17 +20,17 @@ Este curso realizará mediante las presentaciones de clases magistrales de exper
 
 Tendremos dos sesiones: 
 
-:pushpin: [Sesión 1](): **Problema fundamental de la inferencia causal y repaso de regresión lineal**. 
+:pushpin: [Sesión 1](https://sigmalabschile.github.io/Workshop-IPESA-TEVI24.github.io/S1.html): **Problema fundamental de la inferencia causal y repaso de regresión lineal**. 
 
 26/11 de 19:00 – 21:00 hrs
 
-:pushpin: [Sesión 2](): **Diseños experimentales: aleatorización y diseño de bloques**. 
+:pushpin: [Sesión 2](https://sigmalabschile.github.io/Workshop-IPESA-TEVI24.github.io/S2.html): **Diseños experimentales: aleatorización y diseño de bloques**. 
 
 28/11 de 19:00 – 21:00 hrs
 
 **Una sesión de estudio personal:**
 
-:pushpin: [Sesión 3](): **Técnicas con datos observacionales: matching y variables instrumentales**. 
+:pushpin: [Sesión 3](https://sigmalabschile.github.io/Workshop-IPESA-TEVI24.github.io/S3.html): **Técnicas con datos observacionales: matching y variables instrumentales**. 
 
 Estudio personal.
 

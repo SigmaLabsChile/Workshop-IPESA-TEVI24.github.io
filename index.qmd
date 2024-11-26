@@ -2,9 +2,15 @@
 title: "Técnicas de Evaluación de Impacto de Políticas Públicas en Crimen y Seguridad Ciudadana"
 author: 
   - José Conejeros <br> <jdconejeros@sigmaanalytics.cl>
+  - Ariel Gonzalez <br> <agonzalez@sigmaanalytics.cl>
+  - Javier Fuentes <br> <jfuentes@sigmaanalytics.cl>
+  - Hermann Aros <br> <haros@sigmaanalytics.cl>
+  - Cristóbal Miño <br> <cmino@sigmaanalytics.cl>
 date: last-modified
 date-format: 'dddd DD [de] MMMM, YYYY'
 ---
+
+Puede saber más de nosotros en: <https://sigmaanalytics.cl/>
 
 ## Curso especializado en criminología y gestión de la seguridad ciudadana
 
@@ -16,15 +22,14 @@ Este curso realizará mediante las presentaciones de clases magistrales de exper
 
 Tendremos tres sesiones: 
 
-[Sesión 1](): **Problema fundamental de la inferencia causal y repaso de regresión lineal**. 
-
+[Sesión 1](https://sigmalabschile.github.io/Workshop-IPESA-TEVI24.github.io/S1.html): **Problema fundamental de la inferencia causal y repaso de regresión lineal**. 
 26/11 de 19:00 – 21:00 hrs
 
-[Sesión 2](): **Diseños experimentales: aleatorización y diseño de bloques**. 
+[Sesión 2](https://sigmalabschile.github.io/Workshop-IPESA-TEVI24.github.io/S2.html): **Diseños experimentales: aleatorización y diseño de bloques**. 
 
 28/11 de 19:00 – 21:00 hrs
 
-[Sesión 3](): **Técnicas con datos observacionales: matching y variables instrumentales**. 
+[Sesión 3](https://sigmalabschile.github.io/Workshop-IPESA-TEVI24.github.io/S3.html): **Técnicas con datos observacionales: matching y variables instrumentales**. 
 
 Estudio personal
 

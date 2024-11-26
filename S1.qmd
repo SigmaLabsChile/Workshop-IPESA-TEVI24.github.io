@@ -1,8 +1,12 @@
 ---
 title: "Sesión 1: Inferencia causal en ciencias sociales"
-subtitle: "Magíster en Métodos para la Investigación Social 2024"
+subtitle: "Técnicas de Evaluación de Impacto de Políticas Públicas en Crimen y Seguridad Ciudadana"
 author: 
-  - José Conejeros <br> <jose.conejeros1@mail.udp.cl>
+  - José Conejeros <br> <jdconejeros@sigmaanalytics.cl>
+  - Ariel Gonzalez <br> <agonzalez@sigmaanalytics.cl>
+  - Javier Fuentes <br> <jfuentes@sigmaanalytics.cl>
+  - Hermann Aros <br> <haros@sigmaanalytics.cl>
+  - Cristóbal Miño <br> <cmino@sigmaanalytics.cl>
 date: last-modified
 date-format: 'dddd DD [de] MMMM, YYYY'
 last-modified: true
@@ -26,8 +30,8 @@ format:
     code-overflow: wrap
     fig-cap-location: top
 lang: es
-abstract-title: "Facultad de Ciencias Sociales e Historia UDP"
-abstract: "[Click al repositorio](https://github.com/JDConejeros/MIMIS-WKs2024.github.io)"
+abstract-title: "Sigma Analytics Spa"
+abstract: "[Click al repositorio](https://github.com/SigmaLabsChile/Workshop-IPESA-TEVI24.github.io)"
 ---
 
 ```{r}
@@ -43,6 +47,7 @@ install.packages("tinytex")
 install.packages("texreg")
 ```
 
+Puede saber más de nosotros en: <https://sigmaanalytics.cl/>
 
 ## ¿Qué es la inferencia causal? 
 
@@ -213,7 +218,7 @@ En otras palabras:
 Los términos son equivalentes e intercambiables:
 
 - Tratados: $E[Y_i(1)|D_i=1] = E[Y_i(1)|D_i=0] = E[Y_i(1)]$
-- Controles: $E[Y_i(0)|D_i=0] = E[Y_i(0)|D_i=0] = E[Y_i(0)]$
+- Controles: $E[Y_i(0)|D_i=0] = E[Y_i(0)|D_i=1] = E[Y_i(0)]$
 
 En consecuencia la asignación al grupo de tratamiento o control no incide sobre el valor esperado. Por lo tanto, la asignación aleatoria es condición de posibilidad de la independencia y se deduce que, en **los promedios**, la única diferencia entre $(D_{t}$ y $(D_{c}$ corresponde a que un grupo fue tratado y el otro no. En definitiva, se puede estimar el $ATE$ como el efecto promedio del *medicaid* para el grupo tratamiento y en el grupo de control: 
 
