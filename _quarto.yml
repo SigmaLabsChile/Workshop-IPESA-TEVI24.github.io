@@ -13,7 +13,7 @@ website:
         text: Sesión 2
       - href: S3.qmd
         text: Sesión 3
-    logo: "images/Isotipo.png"
+    #logo: "images/Isotipo.png"
 lang: es    
 
 format:
