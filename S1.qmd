@@ -61,18 +61,33 @@ Podemos entender la inferencia causal como el interés por estimar el efecto de 
 
 Algunos ejemplos: 
 
+[Zubizarreta, J. R., Cerdá, M., & Rosenbaum, P. R. (2013). Effect of the 2010 Chilean earthquake on posttraumatic stress: reducing sensitivity to unmeasured bias through study design. Epidemiology, 24(1), 79-87.](https://pubmed.ncbi.nlm.nih.gov/23222557/)
+
 ![](images/S1/zubizarreta.png){width="700" height="600" fig-align="center"}
 
-[Zubizarreta, J. R., Cerdá, M., & Rosenbaum, P. R. (2013). Effect of the 2010 Chilean earthquake on posttraumatic stress: reducing sensitivity to unmeasured bias through study design. Epidemiology, 24(1), 79-87.](https://pubmed.ncbi.nlm.nih.gov/23222557/)
+[Torche, F. (2011). The effect of maternal stress on birth outcomes: exploiting a natural experiment. Demography, 48, 1473-1491.](https://pubmed.ncbi.nlm.nih.gov/21870187/)
+
 
 
 ![](images/S1/torche.png){width="700" height="700" fig-align="center"}
 
-[Torche, F. (2011). The effect of maternal stress on birth outcomes: exploiting a natural experiment. Demography, 48, 1473-1491.](https://pubmed.ncbi.nlm.nih.gov/21870187/)
+
+[Muralidharan, K., Singh, A., & Ganimian, A. J. (2019). Disrupting education? Experimental evidence on technology-aided instruction in India. American Economic Review, 109(4), 1426-1460.](https://www.aeaweb.org/articles?id=10.1257/aer.20171112)
+
 
 ![](images/S1/muralidharan.png){width="700" height="600" fig-align="center"}
 
-[Muralidharan, K., Singh, A., & Ganimian, A. J. (2019). Disrupting education? Experimental evidence on technology-aided instruction in India. American Economic Review, 109(4), 1426-1460.](https://www.aeaweb.org/articles?id=10.1257/aer.20171112)
+
+**Aunque no siempre podemos hacer experimentos:**
+
+[Di Tella, R., & Schargrodsky, E. (2004). Do police reduce crime? Estimates using the allocation of police forces after a terrorist attack. American Economic Review, 94(1), 115–133. https://doi.org/10.1257/000282804322970733](https://www.aeaweb.org/articles?id=10.1257/000282804322970733)
+
+![](images/S1/ditela_abstract.png){width="700" height="400" fig-align="center"}
+
+
+![](images/S1/ditela2.png){width="700" height="400" fig-align="center"}
+
+![](images/S1/ditela3.png){width="700" height="400" fig-align="center"}
 
 **Fundamental** 
 
@@ -306,11 +321,11 @@ library(AER) # Contiene los datos
 library(texreg) # Contiene los datos 
 
 # Extraemos los datos 
-data(STAR)
-glimpse(STAR)
+data(Guns)
+glimpse(Guns)
 ```
 
-El conjunto de datos del Project STAR (Student/Teacher Achievement Ratio) proviene de un estudio longitudinal de cuatro años financiado por la Asamblea General de Tennessee y llevado a cabo a fines de la década de 1980 por el Departamento de Educación del Estado. Este estudio incluyó a más de 5,000 estudiantes de 79 escuelas, asignados aleatoriamente a una de tres intervenciones: clases pequeñas (13 a 17 estudiantes por maestro), clases regulares (22 a 25 estudiantes por maestro), y clases regulares con asistente (22 a 25 estudiantes con un asistente de maestro a tiempo completo). Los docentes también fueron asignados aleatoriamente a los grupos que enseñarían. Las intervenciones comenzaron cuando los estudiantes ingresaron al jardín de infancia y continuaron hasta el tercer grado. Stock y Watson (2007) obtuvieron este conjunto de datos del sitio web del Project STAR.
+La base de datos Guns es un panel equilibrado que contiene información anual sobre los 50 estados de EE.UU. desde 1977 hasta 1999, diseñada para estudiar la relación entre políticas de control de armas y la criminalidad. El objetivo principal es evaluar cómo las variaciones en las leyes relacionadas con armas de fuego, como restricciones de compra o portación, impactan indicadores de criminalidad, incluidos homicidios, robos y otros delitos violentos. Estos datos permiten analizar patrones longitudinales y entre estados, controlando tanto por características invariables en el tiempo de cada estado como por factores comunes a nivel nacional, ayudando a identificar el impacto causal de las políticas de armas en los resultados de seguridad pública.
 
 Vamos a trabajar con una versión sencilla de estos datos: 
 
@@ -319,15 +334,14 @@ Vamos a trabajar con una versión sencilla de estos datos:
 #| message: false
 #| echo: true
 # Procesamos los datos
-STAR <- STAR %>% 
-  tidyr::drop_na(readk, mathk) %>% 
-  mutate(str=if_else(stark=="small", 1, 0)) %>% 
+guns <- Guns %>% 
+  tidyr::drop_na(law, violent, murder, robbery) %>% 
+  mutate(str=if_else(law=="yes", 1, 0)) %>% 
   rowwise() %>% 
-  mutate(tscorek=(readk + mathk)) %>% 
-  select(str, tscorek, readk, mathk)
+  select(str, violent, murder, robbery)
 
 # Veamos los datos
-glimpse(STAR)
+glimpse(guns)
 ```
 Si consideramos la definición: 
 
@@ -365,9 +379,9 @@ estimador_ATE <- function(data, tratamiento, variable_resultado) {
 #| message: false
 #| echo: true
 # Aplicamos los datos
-estimador_ATE(STAR, tratamiento = "str", variable_resultado = "tscorek")
-estimador_ATE(STAR, tratamiento = "str", variable_resultado = "readk")
-estimador_ATE(STAR, tratamiento = "str", variable_resultado = "mathk")
+estimador_ATE(guns, tratamiento = "str", variable_resultado = "violent")
+estimador_ATE(guns, tratamiento = "str", variable_resultado = "murder")
+estimador_ATE(guns, tratamiento = "str", variable_resultado = "robbery")
 ```
 
 Una alternativa a esto: 
@@ -376,8 +390,8 @@ Una alternativa a esto:
 #| warning: false
 #| message: false
 #| echo: true
-STAR %>%
-  t.test(tscorek ~ str, data = .) %>%
+guns %>%
+  t.test(violent ~ str, data = .) %>%
   tidy()
 ```
 
@@ -408,9 +422,9 @@ Por ejemplo:
 #| echo: true
 #| results: asis
 # Definimos y estimamos el modelo 
-modelo1 <- lm(tscorek ~ str, data = STAR)
-modelo2 <- lm(readk ~ str, data = STAR)
-modelo3 <- lm(mathk ~ str, data = STAR)
+modelo1 <- lm(violent~ str, data = guns)
+modelo2 <- lm(murder ~ str, data = guns)
+modelo3 <- lm(robbery ~ str, data = guns)
 
 # Reportamos estos modelos
 htmlreg(l=list(modelo1, modelo2, modelo3))
