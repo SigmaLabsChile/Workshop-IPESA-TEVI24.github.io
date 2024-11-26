@@ -6,7 +6,7 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Curso Criminología 2024
+        text: Curso TEVI Criminología 2024
       - href: S1.qmd
         text: Sesión 1
       - href: S2.qmd

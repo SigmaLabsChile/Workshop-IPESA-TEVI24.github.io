@@ -1,5 +1,5 @@
 ---
-title: "Técnicas de Evaluación de Impacto de Políticas Públicas de Seguridad Ciudadana"
+title: "Técnicas de Evaluación de Impacto de Políticas Públicas en Crimen y Seguridad Ciudadana"
 author: 
   - José Conejeros <br> <jdconejeros@sigmaanalytics.cl>
 date: last-modified
@@ -27,6 +27,10 @@ Tendremos tres sesiones:
 [Sesión 3](): **Técnicas con datos observacionales: matching y variables instrumentales**. 
 
 Estudio personal
+
+## Metodología
+
+Clases expositivas y códigos en lenguaje de programación `R` disponibles para reproducibilidad. **ESTE CURSO NO TIENE EVALUACIONES**.
 
 ## Referencias 
 

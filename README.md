@@ -13,11 +13,11 @@ Este curso realizará mediante las presentaciones de clases magistrales de exper
 
 Tendremos dos sesiones: 
 
-:pushpin: Sesión 1: [Sesión 1](): **Problema fundamental de la inferencia causal y repaso de regresión lineal**. 
+:pushpin: [Sesión 1](): **Problema fundamental de la inferencia causal y repaso de regresión lineal**. 
 
 26/11 de 19:00 – 21:00 hrs
 
-:pushpin: Sesión 2: [Sesión 2](): **Diseños experimentales: aleatorización y diseño de bloques**. 
+:pushpin: [Sesión 2](): **Diseños experimentales: aleatorización y diseño de bloques**. 
 
 28/11 de 19:00 – 21:00 hrs
 
