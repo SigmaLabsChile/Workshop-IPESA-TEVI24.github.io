@@ -26,7 +26,13 @@ jobs:
             texlive-xetex \
             texlive-fonts-recommended \
             texlive-latex-recommended \
-            texlive-latex-extra
+            texlive-latex-extra \
+            ghostscript \
+            poppler-utils
+
+      - name: Fix ImageMagick Policy
+        run: |
+          sudo sed -i 's/<policy domain="coder" rights="none" pattern="PDF"/<policy domain="coder" rights="read|write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml
 
       - name: Install R
         uses: r-lib/actions/setup-r@v2
