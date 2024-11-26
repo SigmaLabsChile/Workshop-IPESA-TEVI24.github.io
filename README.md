@@ -34,6 +34,16 @@ Tendremos dos sesiones:
 
 Estudio personal.
 
+
+## Metodología
+
+Clases expositivas y códigos en lenguaje de programación `R` disponibles para reproducibilidad. 
+
+## Evaluaciones
+
+- Prueba de selección múltiple al inicio del curso.
+- Prueba de selección múltiple al final del curso.
+
 ## Referencias 
 
 Angrist, J. D. y J. Pischke (2015). Mastering ’Metrics: The Path from Cause to Effect. Princeton University Press.

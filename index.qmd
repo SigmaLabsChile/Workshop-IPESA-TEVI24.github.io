@@ -8,7 +8,17 @@ author:
   - Cristóbal Miño <br> <cmino@sigmaanalytics.cl>
 date: last-modified
 date-format: 'dddd DD [de] MMMM, YYYY'
+format: 
+  html:
+    css: "style.css"
 ---
+
+::: logo-position
+<!-- No modificar -->
+<br><br>
+![](images/logo-SA.png){width="200px"}
+:::
+
 
 Puede saber más de nosotros en: <https://sigmaanalytics.cl/>
 
@@ -35,7 +45,12 @@ Estudio personal
 
 ## Metodología
 
-Clases expositivas y códigos en lenguaje de programación `R` disponibles para reproducibilidad. **ESTE CURSO NO TIENE EVALUACIONES**.
+Clases expositivas y códigos en lenguaje de programación `R` disponibles para reproducibilidad. 
+
+## Evaluaciones
+
+- Prueba de selección múltiple al inicio del curso.
+- Prueba de selección múltiple al final del curso.
 
 ## Referencias 
 

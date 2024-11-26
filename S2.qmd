@@ -13,7 +13,7 @@ last-modified: true
 title-block-banner: true
 format: 
   html:
-    #css: "files/style.css"
+    css: "style.css"
     #page-layout: full
     embed-resources: true
     smooth-scroll: true
@@ -33,6 +33,12 @@ lang: es
 abstract-title: "Sigma Analytics Spa"
 abstract: "[Click al repositorio](https://github.com/SigmaLabsChile/Workshop-IPESA-TEVI24.github.io)"
 ---
+
+::: logo-position
+<!-- No modificar -->
+<br><br>
+![](images/logo-SA.png){width="200px"}
+:::
 
 Puede saber más de nosotros en: <https://sigmaanalytics.cl/>
 
