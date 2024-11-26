@@ -16,7 +16,7 @@ format:
 ::: logo-position
 <!-- No modificar -->
 <br><br>
-![](images/logo-SA.png){width="200px"}
+![](images/Logo-SA.png){width="200px"}
 :::
 
 
