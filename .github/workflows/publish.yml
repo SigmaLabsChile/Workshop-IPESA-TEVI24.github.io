@@ -20,7 +20,13 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libmagick++-dev
+          sudo apt-get install -y \
+            libmagick++-dev \
+            pandoc \
+            texlive-xetex \
+            texlive-fonts-recommended \
+            texlive-latex-recommended \
+            texlive-latex-extra
 
       - name: Install R
         uses: r-lib/actions/setup-r@v2
@@ -34,6 +40,10 @@ jobs:
 
       - name: Restore R packages
         run: Rscript -e "renv::restore()"
+
+      - name: Debug LaTeX Error (if any)
+        if: failure()
+        run: cat tex_tempDoc.log
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
