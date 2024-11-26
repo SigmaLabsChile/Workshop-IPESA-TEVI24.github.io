@@ -1,7 +1,7 @@
 ---
 title: "Técnicas de Evaluación de Impacto de Políticas Públicas en Crimen y Seguridad Ciudadana"
 author: 
-  - José Conejeros <br> <jdconejeros@sigmaanalytics.cl>
+  - José Conejeros <br> <jconejeros@sigmaanalytics.cl>
   - Ariel Gonzalez <br> <agonzalez@sigmaanalytics.cl>
   - Javier Fuentes <br> <jfuentes@sigmaanalytics.cl>
   - Hermann Aros <br> <haros@sigmaanalytics.cl>
