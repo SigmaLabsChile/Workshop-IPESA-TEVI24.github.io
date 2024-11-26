@@ -1,29 +1,26 @@
----
-title: "MIMIS Workshop 2024"
-author: 
-  - José Conejeros <br> <jose.conejeros1@mail.udp.cl>
-date: last-modified
-date-format: 'dddd DD [de] MMMM, YYYY'
----
+# Ciclo de Talleres Metodológicos Virtuales
 
-## Aproximaciones a la inferencia causal en ciencias sociales
+## Magíster en Métodos para la Investigación Social 2024: Aproximaciones a la inferencia causal en ciencias sociales
+
+**José Conejeros**, :mailbox_with_no_mail: [jose.conejeros1@mail.udp.cl](jose.conejeros1@mail.udp.cl). Docente UDP e Investigador joven de la Escuela de Gobierno UC. 
 
 Este taller analiza las dificultades para estimar efectos causales en ciencias sociales y se introducen estrategias para abordar la causalidad mediante diseños experimentales y cuasi-experimentales. 
 
-**Requisitos:** conocimientos básicos de test de hipótesis, regresión lineal y programación en `R`.
+Requisitos: conocimientos básicos de test de hipótesis, regresión lineal y programación en `R`.
 
-Tendremos tres sesiones: 
+Tendremos tres sesiones: <https://jdconejeros.github.io/MIMIS-WKs2024.github.io/S1.html>
 
-[Sesión 1](https://jdconejeros.github.io/MIMIS-WKs2024.github.io/S1.html): **Problema fundamental de la inferencia causal y repaso de regresión lineal**. 
+:pushpin: Sesión 1: **Problema fundamental de la inferencia causal y repaso de regresión lineal**. 
 
-Lunes 04/11 de 18:00 – 20:00 hrs
+Lunes 04/11 de 18:00 – 20:30 hrs
 
-[Sesión 2](https://jdconejeros.github.io/MIMIS-WKs2024.github.io/S2.html): **Diseños experimentales: aleatorización, diseño de bloques y cálculos de poder**. 
+:pushpin: Sesión 2: **Diseños experimentales: aleatorización, diseño de bloques y cálculos de poder**. 
 
-Lunes 11/11 de 18:00 – 20:00 hrs
+Lunes 11/11 de 18:00 – 20:30 hrs
 
-[Sesión 3](https://jdconejeros.github.io/MIMIS-WKs2024.github.io/S3.html): **Técnicas con datos observacionales: matching y variables instrumentales**. 
-Lunes 18/11 de 18:00 – 20:00 hrs
+:pushpin: Sesión 3: **Técnicas con datos observacionales: matching y variables instrumentales**. 
+
+Lunes 18/11 de 18:00 – 20:30 hrs
 
 ## Referencias 
 
