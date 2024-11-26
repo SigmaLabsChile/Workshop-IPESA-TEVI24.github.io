@@ -2,15 +2,15 @@
 
 ## Curso especializado en criminología y gestión de la seguridad ciudadana
 
-**José Conejeros**, :mailbox_with_no_mail: [jdconejeros@sigmaanalytics.cl](jdconejeros@sigmaanalytics.cl). CEO Sigma Analytics e Investigador joven de la Escuela de Gobierno UC. 
+**José Conejeros**, :mailbox_with_no_mail: [jdconejeros@sigmaanalytics.cl](jdconejeros@sigmaanalytics.cl). Investigador joven de la Escuela de Gobierno UC. Sociólogo UC. Magíster en Estadística UC.
 
-**Ariel Gonzalez**, :mailbox_with_no_mail: [agonzalez@sigmaanalytics.cl](agonzalez@sigmaanalytics.cl).
+**Ariel Gonzalez**, :mailbox_with_no_mail: [agonzalez@sigmaanalytics.cl](agonzalez@sigmaanalytics.cl). Data Scientist. Licenciado en Astronomía UC. Magíster en Estadística UC
 
-**Javier Fuentes**, :mailbox_with_no_mail: [jfuentes@sigmaanalytics.cl](jfuentes@sigmaanalytics.cl).
+**Javier Fuentes**, :mailbox_with_no_mail: [jfuentes@sigmaanalytics.cl](jfuentes@sigmaanalytics.cl). Data Scientist. Ingeniero Civil Industrial UCh. Magíster en Estadística UC.
 
-**Hermann Aros**, :mailbox_with_no_mail: [haros@sigmaanalytics.cl](haros@sigmaanalytics.cl)
+**Hermann Aros**, :mailbox_with_no_mail: [haros@sigmaanalytics.cl](haros@sigmaanalytics.cl) Data Scientist. Sociólogo Universidad Diego Portales. Magíster en Estadística UC.
 
-**Cristóbal Miño**, :mailbox_with_no_mail: [cmino@sigmaanalytics.cl](cmino@sigmaanalytics.cl)
+**Cristóbal Miño**, :mailbox_with_no_mail: [cmino@sigmaanalytics.cl](cmino@sigmaanalytics.cl) Médico UCh. Magíster en Estadística UC.
 
 Este curso analiza las dificultades para estimar efectos causales en ciencias sociales, especialmente en criminología y se introducen estrategias para abordar la causalidad mediante diseños experimentales y cuasi-experimentales. 
 
